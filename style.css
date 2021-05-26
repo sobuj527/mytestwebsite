@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Font Awesome Pro";
+    src: url("fontawesome8deb.eot?14663396#iefix") format("embedded-opentype"),
+    url("fontawesome8deb.woff?14663396") format("woff"),
+    url("fontawesome8deb.ttf?14663396") format("truetype"),
+    url("fontawesome8deb.svg?14663396#fontawesome") format("svg");
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+	width: 40%;
+	margin: 0 auto;
+	overflow: hidden
+}
+.w3schools-logo {
+	font-family: Font Awesome Pro;
+	text-decoration: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 37px;
+	letter-spacing: 3px;
+	color: #555555;
+	display: block;
+	position: absolute;
+	top: 17px;
+}
+.w3schools-logo:hover {
+	color: limegreen
+}
+.w3schools-logo span {
+	color: limegreen
+}
+
+.menu {
+	width: 300px;
+	padding: 25px;
+	height: 100%;
+
+}
+.menuinner {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	height: 100%;
+}
+.menuinnerinner {
+	height: 100%;
+	width: 300px;
+	background: #eef;
+	overflow: hidden;
+}
+.menuinnerinner:hover {
+	overflow-y: scroll;
+}
+.menuinnerinner h2 {
+	position: sticky;
+	top: 0;
+	z-index: 99;
+	padding-left: 15px;
+	background: #fff;
+	box-shadow: 0 3px 5px #ccc;
+}
+.menuinnerinner a {display: block; padding-left: 15px}
